@@ -3,7 +3,8 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
-  --text-title-color: #212121;
+  --second-color: #212121;
+  --third-color: #afb1b8;
 }
 
 /* reset styles by tag selector*/
@@ -61,7 +62,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--text-title-color);
+  color: var(--second-color);
 }
 
 .visually-hidden {
@@ -130,7 +131,7 @@ body {
 }
 
 .menu-link {
-  color: var(--text-title-color);
+  color: var(--second-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -292,7 +293,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: var(--text-title-color);
+  color: var(--second-color);
 }
 
 .features-description {
@@ -397,7 +398,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--text-title-color);
+  color: var(--second-color);
 }
 .team-member-position {
   font-weight: 400;
@@ -425,7 +426,7 @@ body {
   height: 44px;
   border-radius: 50%;
   background-color: transparent;
-  fill: #afb1b8;
+  fill: var(--third-color);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -460,10 +461,10 @@ body {
   width: 170px;
   height: 92px;
 
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--third-color);
   border-radius: 4px;
 
-  fill: #afb1b8;
+  fill: var(--third-color);
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -687,7 +688,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: var(--text-title-color);
+  color: var(--second-color);
 
   background: #f5f4fa;
   border-radius: 4px;
@@ -792,7 +793,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 
-  color: var(--text-title-color);
+  color: var(--second-color);
 }
 .portfolio-item-description {
   font-weight: 400;
@@ -874,7 +875,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--second-color);
 }
 
 .modal-form-field {
@@ -910,7 +911,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   left: 12px;
-  fill: #212121;
+  fill: var(--second-color);
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -966,7 +967,7 @@ body {
   margin-right: 7px;
   margin-left: 12px;
 
-  border: 1px solid #212121;
+  border: 1px solid var(--second-color);
   border-radius: 2px;
   cursor: pointer;
 }
@@ -1022,7 +1023,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 
-  color: #212121;
+  color: var(--second-color);
 }
 
 /*=======END BACKDROP=======*/
