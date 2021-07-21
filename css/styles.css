@@ -507,10 +507,10 @@ body {
   padding: 60px 0;
   background-color: #2f303a;
 }
-.footer-container {
+.footer__container {
   display: flex;
 }
-.footer-contact {
+.footer__contact {
   display: flex;
   flex-direction: column;
   width: 231px;
@@ -528,42 +528,31 @@ body {
 
 .footer-address {
 }
-.footer-address-list {
+.footer-address__list {
 }
 
-.fotter-address-item:not(:last-child) {
+.footer-address__item:not(:last-child) {
   margin-bottom: 9px;
 }
-.fotter-address-link {
+.footer-address__link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
 
+.footer-address__link:hover,
+.footer-address__link:focus {
+  outline: none;
+  color: var(--accent-color);
+}
+
+.footer-address__link_address {
   color: #ffffff;
 }
-
-.fotter-address-link:hover,
-.fotter-address-link:focus {
-  outline: none;
-  color: var(--accent-color);
-}
-
-.fotter-contact-link {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
+.footer-address__link_contact {
   color: rgba(255, 255, 255, 0.6);
-}
-
-.fotter-contact-link:hover,
-.fotter-contact-link:focus {
-  outline: none;
-  color: var(--accent-color);
 }
 
 .footter-social {
@@ -572,7 +561,7 @@ body {
   margin-right: 94px;
 }
 
-.footter-social-title {
+.footter-social__title {
   display: flex;
   align-items: flex-end;
   height: 31px;
@@ -588,7 +577,7 @@ body {
   color: #ffffff;
 }
 
-.footter-form-title {
+.footer-email-form-title {
   display: flex;
   align-items: flex-end;
   height: 31px;
@@ -608,7 +597,7 @@ body {
   display: flex;
 }
 
-.footer-email-input {
+.footer-email-form__input {
   width: 358px;
   height: 50px;
   margin-right: 12px;
@@ -621,14 +610,14 @@ body {
   background-color: transparent;
   color: #ffffff;
 }
-.footer-email-input::placeholder {
+.footer-email-form__input::placeholder {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-subscribe-button {
+.footer-email-form__button {
   display: flex;
   justify-content: center;
   align-items: center;
