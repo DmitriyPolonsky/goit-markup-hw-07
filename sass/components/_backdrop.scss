@@ -37,12 +37,13 @@
     border-radius: 50%;
     cursor: pointer;
     padding: 0;
+
+   &:hover .close-button-icon,
+   &:focus .close-button-icon {
+      fill: var(--accent-color);
+    }
   }
-  
-  .modal__close-button:hover .close-button-icon,
-  .modal__close-button:focus .close-button-icon {
-    fill: var(--accent-color);
-  }
+
   .close-button-icon {
     fill: #000000;
   }
