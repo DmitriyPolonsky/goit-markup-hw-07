@@ -75,13 +75,13 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.logo-color-one {
+.logo_color-one {
   color: var(--accent-color);
 }
-.logo-color-two {
+.logo_color-two {
   color: #000000;
 }
-.logo-color-three {
+.logo_color-three {
   color: #ffffff;
 }
 /*END LOGO*/

@@ -60,7 +60,6 @@ body {
 }
 
 .logo {
-  margin-right: 92px;
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
@@ -68,15 +67,19 @@ body {
   letter-spacing: 0.03em;
 }
 
-.logo-color-one {
+.logo__header {
+  margin-right: 92px;
+}
+
+.logo_color-one {
   color: var(--accent-color);
 }
 
-.logo-color-two {
+.logo_color-two {
   color: #000000;
 }
 
-.logo-color-three {
+.logo_color-three {
   color: #ffffff;
 }
 
